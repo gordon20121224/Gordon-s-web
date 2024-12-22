@@ -1,4 +1,7 @@
 import streamlit as st
+from utils import init_page
+
+init_page()
 
 st.title("這是標題")
 st.write(
